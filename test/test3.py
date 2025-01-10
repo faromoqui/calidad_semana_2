@@ -19,7 +19,6 @@ class eis_test(unittest.TestCase):
 		self.assertGreater(len(carrusel),4)	
 		
 		
-
 	def tearDown(self):
 		self.browser.quit()
 
