@@ -20,7 +20,7 @@ class eis_test(unittest.TestCase):
 	def test_load(self):
 		browser = self.browser
 		browser.get("https://www.tucarro.com.co/")
-		time.sleep(2)
+		time.sleep(5)
 		browser.find_element(By.XPATH, '/html/body/div[3]/div/div/div[2]/button').click()
 		buscador = browser.find_element(By.XPATH, '/html/body/header/div/form/input')
 		buscador.clear()
